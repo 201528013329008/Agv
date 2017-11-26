@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+  <!-- [控制台STDOUT] -->
+  <appender name="Console" class="org.apache.log4j.ConsoleAppender">
+     <param name="encoding" value="GBK" />
+     <param name="target" value="System.out" />
+     <param name="threshold" value="error" />
+     <layout class="org.apache.log4j.PatternLayout">
+       <param name="ConversionPattern" value="[%-5p] %d{yyyy-MM-dd HH:mm:ss,SSS} method:%l%n%m%n" />
+     </layout>
+  </appender>
+
+  <!-- [公共Appender] -->
+  <appender name="DEFAULT-APPENDER" class="org.apache.log4j.RollingFileAppender">
+     <param name="File" value="D://AGVLOG/all.log" />
+     <param name="encoding" value="GBK" />
+     <param name="threshold" value="debug" />
+     <param name="MaxFileSize" value="50MB" />
+     <layout class="org.apache.log4j.PatternLayout">
+		<param name="ConversionPattern" value="[%-5p] %d{yyyy-MM-dd HH:mm:ss,SSS} method:%l%n%m%n" />
+     </layout>
+   </appender>
+
+   <!-- [系统APPENDER] -->
+   <appender name="SYSTEMLOG" class="org.apache.log4j.RollingFileAppender">
+     <param name="File" value="D://AGVLOG/system.log" />
+     <param name="encoding" value="GBK" />
+     <param name="threshold" value="debug" />
+     <param name="MaxFileSize" value="50MB" />
+     <layout class="org.apache.log4j.PatternLayout">
+        <param name="ConversionPattern" value="[%-5p] %d{yyyy-MM-dd HH:mm:ss,SSS} method:%l%n%m%n" />
+     </layout>
+   </appender>
+
+   <!-- [用户日志APPENDER] -->
+   <appender name="USERLOG"	class="org.apache.log4j.RollingFileAppender">
+     <param name="File" value="D://AGVLOG/user_log.html" />
+     <param name="encoding" value="GBK" />
+     <layout class="agv.log4j.MyHTMLLayout">
+		<param name="LocationInfo" value="true" />
+     </layout>
+   </appender>
+   
+   <!-- [数据库日志APPENDER] -->
+   <appender name="DB"	class="org.apache.log4j.jdbc.JDBCAppender">
+     <param name="driver" value="com.mysql.jdbc.Driver" />
+     <param name="URL" value="jdbc:mysql://localhost:3306/zyb_agv?useUnicode=true&amp;characterEncoding=UTF-8&amp;zeroDateTimeBehavior=convertToNull" />
+     <param name="user" value="root" />
+     <param name="password" value="root" />
+     <param name="sql" value="insert into tb_log (userId,class,method,createDate,logLevel, msg) values ('%X{userId_log4j}','%C','%M','%d{yyyy-MM-dd HH:mm:ss}','%p','%m');"/>
+   	 
+   </appender>
+
+	<!-- 指定logger的设置,additivity指示是否遵循缺省的继承机制 -->       
+    <logger name="agv">       
+        <level value ="debug"/>         
+        <appender-ref ref="SYSTEMLOG" />         
+    </logger>    
+    <logger name="agv.user">       
+        <level value ="info"/>         
+        <appender-ref ref="USERLOG" />   
+        <appender-ref ref="DB" />         
+    </logger>    
+       
+    <!-- 根logger的设置-->       
+    <root>       
+        <level value ="debug"/>       
+        <appender-ref ref="Console"/>       
+        <appender-ref ref="DEFAULT-APPENDER"/>          
+    </root>       
+</log4j:configuration>

@@ -1,0 +1,274 @@
+﻿{
+	"scale": 0.04,
+	"regX": 15450,
+	"regY": 6695,
+	"width": "1000",
+	"height": "600",
+	"roads": [{
+		"id": 17,
+		"name": "R1",
+		"point_ids": [1,
+		2,
+		3,
+		4],
+		"capacity": 1,
+		"type": "double-way",
+		"color": "orange"
+	},
+	{
+		"id": 18,
+		"name": "R2",
+		"point_ids": [5,
+		6,
+		10,
+		11,
+		7,
+		8],
+		"capacity": 1,
+		"type": "double-way",
+		"color": "green"
+	},
+	{
+		"id": 19,
+		"name": "R3",
+		"point_ids": [5,
+		13],
+		"capacity": 1,
+		"type": "double-way",
+		"color": "black"
+	},
+	{
+		"id": 20,
+		"name": "R3",
+		"point_ids": [1,
+		14],
+		"capacity": 1,
+		"type": "double-way",
+		"color": "black"
+	},
+	{
+		"id": 21,
+		"name": "R3",
+		"point_ids": [4,
+		15],
+		"capacity": 1,
+		"type": "double-way",
+		"color": "black"
+	},
+	{
+		"id": 22,
+		"name": "R3",
+		"point_ids": [8,
+		16],
+		"capacity": 1,
+		"type": "double-way",
+		"color": "black"
+	},
+	{
+		"id": 23,
+		"name": "R3",
+		"point_ids": [6,
+		9],
+		"capacity": 1,
+		"type": "double-way",
+		"color": "black"
+	},
+	{
+		"id": 24,
+		"name": "R3",
+		"point_ids": [7,
+		12],
+		"capacity": 1,
+		"type": "double-way",
+		"color": "black"
+	},{
+		"id": 25,
+		"name": "R1",
+		"point_ids": [10,
+		2],
+		"capacity": 1,
+		"type": "double-way",
+		"color": "orange"
+	},{
+		"id": 26,
+		"name": "R1",
+		"point_ids": [11,
+		3],
+		"capacity": 1,
+		"type": "double-way",
+		"color": "orange"
+	}],
+	"workstations": [],
+	"stops": [{
+		"id": "9",
+		"name": "I",
+		"wtype": "stop",
+		"x": "26500",
+		"y": "4000",
+		"road_id": "",
+		"point_id": "9",
+		"sn": ""
+	},
+	{
+		"id": "12",
+		"name": "I",
+		"wtype": "stop",
+		"x": "4400",
+		"y": "4000",
+		"road_id": "",
+		"point_id": "12",
+		"sn": ""
+	}],
+	"intersections": [{
+		"id": 1,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "21808",
+		"y": "6800"
+	},
+	{
+		"id": 2,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "21808",
+		"y": "6600"
+	},
+	{
+		"id": 3,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "7231",
+		"y": "6600"
+	},
+	{
+		"id": 4,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "7231",
+		"y": "6800"
+	},
+	{
+		"id": 5,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "24822",
+		"y": "6800"
+	},
+	{
+		"id": 6,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "24822",
+		"y": "4000"
+	},
+	{
+		"id": 7,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "4772",
+		"y": "4000"
+	},
+	{
+		"id": 8,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "4772",
+		"y": "6800"
+	},
+	{
+		"id": 9,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "26500",
+		"y": "4000"
+	},
+	{
+		"id": 10,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "21808",
+		"y": "4000"
+	},
+	{
+		"id": 11,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "7231",
+		"y": "4000"
+	},
+	{
+		"id": 12,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "4400",
+		"y": "4000"
+	},
+	{
+		"id": 13,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "24822",
+		"y": "8779"
+	},
+	{
+		"id": 14,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "21808",
+		"y": "8860"
+	},
+	{
+		"id": 15,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "7231",
+		"y": "9391"
+	},
+	{
+		"id": 16,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "4772",
+		"y": "8560"
+	}],
+	"shelfs": [{
+		"id": "13",
+		"name": "I",
+		"wtype": "shelf",
+		"x": "24822",
+		"y": "8779",
+		"road_id": "",
+		"point_id": "13",
+		"sn": "SH001"
+	},
+	{
+		"id": "14",
+		"name": "I",
+		"wtype": "shelf",
+		"x": "21808",
+		"y": "8860",
+		"road_id": "",
+		"point_id": "14",
+		"sn": "SH002"
+	},
+	{
+		"id": "15",
+		"name": "I",
+		"wtype": "shelf",
+		"x": "7231",
+		"y": "9391",
+		"road_id": "",
+		"point_id": "15",
+		"sn": "SH003"
+	},
+	{
+		"id": "16",
+		"name": "I",
+		"wtype": "shelf",
+		"x": "4772",
+		"y": "8560",
+		"road_id": "",
+		"point_id": "16",
+		"sn": "SH004"
+	}]
+}

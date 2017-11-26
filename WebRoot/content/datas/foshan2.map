@@ -1,0 +1,112 @@
+﻿{
+	"scale": 0.072,
+	"regX": 15000,
+	"regY": 7500,
+	"width": "900",
+	"height": "600",
+	"roads": [{
+			"id": 7,
+			"name": "R",
+			"point_ids": [3, 2, 7, 6, 4, 5, 1],
+			"capacity": 2,
+			"type": "double-way",
+			"color": "green"
+		},
+		{
+			"id": 8,
+			"name": "R",
+			"point_ids": [7,8],
+			"capacity": 2,
+			"type": "double-way",
+			"color": "green"
+		}
+	],
+	"workstations": [],
+	"stops": [{
+			"id": "7",
+			"name": "I",
+			"wtype": "stop",
+			"x": "12000",
+			"y": "7000",
+			"road_id": "",
+			"point_id": "7"
+		}, {
+			"id": "8",
+			"name": "I",
+			"wtype": "stop",
+			"x": "12000",
+			"y": "10000",
+			"road_id": "",
+			"point_id": "8"
+		}],
+	"intersections": [{
+			"id": 3,
+			"name": "I",
+			"wtype": "intersection",
+			"x": "10000",
+			"y": "10000"
+		}, {
+			"id": 2,
+			"name": "I",
+			"wtype": "intersection",
+			"x": "10000",
+			"y": "7000"
+		}, {
+			"id": 6,
+			"name": "I",
+			"wtype": "intersection",
+			"x": "15000",
+			"y": "7000"
+		}, {
+			"id": 4,
+			"name": "I",
+			"wtype": "intersection",
+			"x": "15000",
+			"y": "5000"
+		}, {
+			"id": 5,
+			"name": "I",
+			"wtype": "intersection",
+			"x": "20000",
+			"y": "5000"
+		}, {
+			"id": 1,
+			"name": "I",
+			"wtype": "intersection",
+			"x": "20000",
+			"y": "10000"
+		}, {
+			"id": 7,
+			"name": "I",
+			"wtype": "intersection",
+			"x": "12000",
+			"y": "7000"
+		}, {
+			"id": 8,
+			"name": "I",
+			"wtype": "intersection",
+			"x": "12000",
+			"y": "10000"
+		}
+	],
+	"shelfs": [{
+			"id": "3",
+			"name": "I",
+			"wtype": "shelf",
+			"x": "10000",
+			"y": "10000",
+			"road_id": "",
+			"point_id": "3",
+			"sn": "SH001"
+		}, {
+			"id": "1",
+			"name": "I",
+			"wtype": "shelf",
+			"x": "20000",
+			"y": "10000",
+			"road_id": "",
+			"point_id": "1",
+			"sn": "SH006"
+		}
+	]
+}

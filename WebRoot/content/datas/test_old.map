@@ -1,0 +1,381 @@
+﻿{
+	"scale": "0.05",
+	"regX": "11500",
+	"regY": "6280",
+	"width": "1000",
+	"height": "600",
+	"roads": [{
+		"id": 18,
+		"name": "R",
+		"point_ids": [1,
+		5],
+		"capacity": 1,
+		"type": "double-way",
+		"color": "black"
+	},
+	{
+		"id": 19,
+		"name": "R",
+		"point_ids": [1,
+		8],
+		"capacity": 1,
+		"type": "double-way",
+		"color": "black"
+	},
+	{
+		"id": 20,
+		"name": "R",
+		"point_ids": [8,
+		17],
+		"capacity": 1,
+		"type": "double-way",
+		"color": "black"
+	},
+	{
+		"id": 21,
+		"name": "R",
+		"point_ids": [3,
+		2,
+		4,
+		11,
+		15],
+		"capacity": 1,
+		"type": "double-way",
+		"color": "black"
+	},
+	{
+		"id": 22,
+		"name": "R",
+		"point_ids": [9,
+		6,
+		10,
+		7,
+		12],
+		"capacity": 1,
+		"type": "double-way",
+		"color": "black"
+	},
+	{
+		"id": 23,
+		"name": "R",
+		"point_ids": [6,
+		3,
+		5,
+		13],
+		"capacity": 1,
+		"type": "double-way",
+		"color": "green"
+	},
+	{
+		"id": 24,
+		"name": "R",
+		"point_ids": [10,
+		2,
+		1,
+		14],
+		"capacity": 1,
+		"type": "double-way",
+		"color": "green"
+	},
+	{
+		"id": 25,
+		"name": "R",
+		"point_ids": [7,
+		4,
+		8,
+		16],
+		"capacity": 1,
+		"type": "double-way",
+		"color": "green"
+	},
+	{
+		"id": 26,
+		"name": "R",
+		"point_ids": [11,
+		17],
+		"capacity": 1,
+		"type": "double-way",
+		"color": "green"
+	},
+	{
+		"id": 29,
+		"name": "R",
+		"point_ids": [6,
+		27,
+		28,
+		10],
+		"capacity": 1,
+		"type": "double-way",
+		"color": "green"
+	},
+	{
+		"id": 35,
+		"name": "R",
+		"point_ids": [30,
+		31,
+		32,
+		33,
+		34],
+		"capacity": 1,
+		"type": "double-way",
+		"color": "green"
+	}],
+	"workstations": [{
+		"id": "27",
+		"name": "I",
+		"wtype": "workstation",
+		"x": "19840",
+		"y": "3000",
+		"road_id": "",
+		"point_id": "27",
+		"sn": ""
+	},
+	{
+		"id": "28",
+		"name": "I",
+		"wtype": "workstation",
+		"x": "18100",
+		"y": "3000",
+		"road_id": "",
+		"point_id": "28",
+		"sn": ""
+	}],
+	"stops": [{
+		"id": "9",
+		"name": "I",
+		"wtype": "stop",
+		"x": "21000",
+		"y": "4000",
+		"road_id": "22",
+		"point_id": "9",
+		"sn": ""
+	},
+	{
+		"id": "12",
+		"name": "I",
+		"wtype": "stop",
+		"x": "2000",
+		"y": "4000",
+		"road_id": "22",
+		"point_id": "12",
+		"sn": ""
+	},
+	{
+		"id": "15",
+		"name": "I",
+		"wtype": "stop",
+		"x": "8000",
+		"y": "6800",
+		"road_id": "21",
+		"point_id": "15",
+		"sn": ""
+	},
+	{
+		"id": "34",
+		"name": "I",
+		"wtype": "stop",
+		"x": "2500",
+		"y": "3000",
+		"road_id": "",
+		"point_id": "34",
+		"sn": ""
+	}],
+	"intersections": [{
+		"id": 1,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "18100",
+		"y": "6800"
+	},
+	{
+		"id": 2,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "18100",
+		"y": "5800"
+	},
+	{
+		"id": 3,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "19840",
+		"y": "5800"
+	},
+	{
+		"id": 4,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "11000",
+		"y": "5800"
+	},
+	{
+		"id": 5,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "19840",
+		"y": "6800"
+	},
+	{
+		"id": 6,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "19840",
+		"y": "4000"
+	},
+	{
+		"id": 7,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "11000",
+		"y": "4000"
+	},
+	{
+		"id": 8,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "11000",
+		"y": "6800"
+	},
+	{
+		"id": 9,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "21000",
+		"y": "4000"
+	},
+	{
+		"id": 10,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "18100",
+		"y": "4000"
+	},
+	{
+		"id": 11,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "10000",
+		"y": "5800"
+	},
+	{
+		"id": 12,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "2000",
+		"y": "4000"
+	},
+	{
+		"id": 13,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "19840",
+		"y": "8560"
+	},
+	{
+		"id": 14,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "18100",
+		"y": "8560"
+	},
+	{
+		"id": 15,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "8000",
+		"y": "6800"
+	},
+	{
+		"id": 16,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "11000",
+		"y": "8560"
+	},
+	{
+		"id": 17,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "10000",
+		"y": "6800"
+	},
+	{
+		"id": 27,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "19840",
+		"y": "3000"
+	},
+	{
+		"id": 28,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "18100",
+		"y": "3000"
+	},
+	{
+		"id": 30,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "14000",
+		"y": "6800"
+	},
+	{
+		"id": 31,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "14000",
+		"y": "5800"
+	},
+	{
+		"id": 32,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "14000",
+		"y": "4000"
+	},
+	{
+		"id": 33,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "14000",
+		"y": "3000"
+	},
+	{
+		"id": 34,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "2500",
+		"y": "3000"
+	}],
+	"shelfs": [{
+		"id": "13",
+		"name": "I",
+		"wtype": "shelf",
+		"x": "19840",
+		"y": "8560",
+		"road_id": "23",
+		"point_id": "13",
+		"sn": "sn0013"
+	},
+	{
+		"id": "14",
+		"name": "I",
+		"wtype": "shelf",
+		"x": "18100",
+		"y": "8560",
+		"road_id": "24",
+		"point_id": "14",
+		"sn": "sn0014"
+	},
+	{
+		"id": "16",
+		"name": "I",
+		"wtype": "shelf",
+		"x": "11000",
+		"y": "8560",
+		"road_id": "25",
+		"point_id": "16",
+		"sn": "sn0016"
+	}]
+}

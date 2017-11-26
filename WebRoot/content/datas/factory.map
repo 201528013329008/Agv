@@ -1,0 +1,219 @@
+﻿{
+	"width": "1000",
+	"height": "200",
+	"roads": [{
+		"id": 10,
+		"name": "R",
+		"point_ids": [1,
+		2],
+		"capacity": 1,
+		"type": "double-way",
+		"color": "orange"
+	},
+	{
+		"id": 11,
+		"name": "R",
+		"point_ids": [2,
+		3],
+		"capacity": 1,
+		"type": "double-way",
+		"color": "orange"
+	},
+	{
+		"id": 12,
+		"name": "R",
+		"point_ids": [3,
+		4],
+		"capacity": 1,
+		"type": "double-way",
+		"color": "orange"
+	},
+	{
+		"id": 13,
+		"name": "R",
+		"point_ids": [4,
+		5],
+		"capacity": 1,
+		"type": "double-way",
+		"color": "orange"
+	},
+	{
+		"id": 14,
+		"name": "R",
+		"point_ids": [5,
+		6],
+		"capacity": 1,
+		"type": "double-way",
+		"color": "orange"
+	},
+	{
+		"id": 15,
+		"name": "R",
+		"point_ids": [6,
+		7],
+		"capacity": 1,
+		"type": "double-way",
+		"color": "orange"
+	},
+	{
+		"id": 16,
+		"name": "R",
+		"point_ids": [7,
+		8],
+		"capacity": 1,
+		"type": "double-way",
+		"color": "orange"
+	},
+	{
+		"id": 17,
+		"name": "R",
+		"point_ids": [8,
+		9],
+		"capacity": 1,
+		"type": "double-way",
+		"color": "orange"
+	}],
+	"workstations": [{
+		"id": 1,
+		"name": "W",
+		"wtype": "workstation",
+		"x": "100",
+		"y": "100",
+		"road_ids": [10]
+	},
+	{
+		"id": 2,
+		"name": "W",
+		"wtype": "workstation",
+		"x": "200",
+		"y": "100",
+		"road_ids": [10,
+		11]
+	},
+	{
+		"id": 3,
+		"name": "W",
+		"wtype": "workstation",
+		"x": "300",
+		"y": "100",
+		"road_ids": [11,
+		12]
+	},
+	{
+		"id": 4,
+		"name": "W",
+		"wtype": "workstation",
+		"x": "400",
+		"y": "100",
+		"road_ids": [12,
+		13]
+	},
+	{
+		"id": 5,
+		"name": "W",
+		"wtype": "workstation",
+		"x": "500",
+		"y": "100",
+		"road_ids": [13,
+		14]
+	},
+	{
+		"id": 6,
+		"name": "W",
+		"wtype": "workstation",
+		"x": "600",
+		"y": "100",
+		"road_ids": [14,
+		15]
+	},
+	{
+		"id": 7,
+		"name": "W",
+		"wtype": "workstation",
+		"x": "700",
+		"y": "100",
+		"road_ids": [15,
+		16]
+	},
+	{
+		"id": 8,
+		"name": "W",
+		"wtype": "workstation",
+		"x": "800",
+		"y": "100",
+		"road_ids": [16,
+		17]
+	},
+	{
+		"id": 9,
+		"name": "W",
+		"wtype": "workstation",
+		"x": "900",
+		"y": "100",
+		"road_ids": [17]
+	}],
+	"stops": [],
+	"intersections": [{
+		"id": 1,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "100",
+		"y": "100"
+	},
+	{
+		"id": 2,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "200",
+		"y": "100"
+	},
+	{
+		"id": 3,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "300",
+		"y": "100"
+	},
+	{
+		"id": 4,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "400",
+		"y": "100"
+	},
+	{
+		"id": 5,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "500",
+		"y": "100"
+	},
+	{
+		"id": 6,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "600",
+		"y": "100"
+	},
+	{
+		"id": 7,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "700",
+		"y": "100"
+	},
+	{
+		"id": 8,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "800",
+		"y": "100"
+	},
+	{
+		"id": 9,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "900",
+		"y": "100"
+	}]
+}

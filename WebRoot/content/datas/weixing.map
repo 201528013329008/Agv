@@ -1,0 +1,481 @@
+﻿{
+	"width": "1026",
+	"height": "664",
+	"roads": [{
+		"id": 9,
+		"name": "环路",
+		"point_ids": [1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		1],
+		"capacity": 1,
+		"type": "single-way",
+		"color": "green"
+	},
+	{
+		"id": 17,
+		"name": "支路2",
+		"point_ids": [13,
+		14,
+		3,
+		6,
+		15,
+		16],
+		"capacity": 1,
+		"type": "double-way",
+		"color": "orange"
+	},
+	{
+		"id": 18,
+		"name": "支路1",
+		"point_ids": [10,
+		2,
+		7,
+		11],
+		"capacity": 1,
+		"type": "double-way",
+		"color": "orange"
+	},
+	{
+		"id": 21,
+		"name": "支路3",
+		"point_ids": [19,
+		4,
+		5,
+		20],
+		"capacity": 1,
+		"type": "double-way",
+		"color": "orange"
+	}],
+	"shelfs": [{
+		"id": 201,
+		"name": "货架",
+		"wtype": "shelf",
+		"x": "100",
+		"y": "205",
+		"road_ids": [18],
+		"sn":"SH001"
+	},
+	{
+		"id": 202,
+		"name": "货架",
+		"wtype": "shelf",
+		"x": "200",
+		"y": "205",
+		"road_ids": [18],
+		"sn":"SH002"
+	}],
+	"workstations": [{
+		"id": 24,
+		"name": "工位",
+		"wtype": "workstation",
+		"x": "530",
+		"y": "25",
+		"road_ids": [9]
+	},
+	{
+		"id": 25,
+		"name": "工位",
+		"wtype": "workstation",
+		"x": "76",
+		"y": "205",
+		"road_ids": [18]
+	},
+	{
+		"id": 26,
+		"name": "工位",
+		"wtype": "workstation",
+		"x": "253",
+		"y": "205",
+		"road_ids": [18]
+	},
+	{
+		"id": 27,
+		"name": "工位",
+		"wtype": "workstation",
+		"x": "375",
+		"y": "205",
+		"road_ids": [18]
+	},
+	{
+		"id": 28,
+		"name": "工位",
+		"wtype": "workstation",
+		"x": "450",
+		"y": "205",
+		"road_ids": [18]
+	},
+	{
+		"id": 29,
+		"name": "工位",
+		"wtype": "workstation",
+		"x": "494",
+		"y": "205",
+		"road_ids": [18]
+	},
+	{
+		"id": 30,
+		"name": "工位",
+		"wtype": "workstation",
+		"x": "530",
+		"y": "205",
+		"road_ids": [18]
+	},
+	{
+		"id": 31,
+		"name": "工位",
+		"wtype": "workstation",
+		"x": "579",
+		"y": "205",
+		"road_ids": [18]
+	},
+	{
+		"id": 32,
+		"name": "工位",
+		"wtype": "workstation",
+		"x": "632",
+		"y": "205",
+		"road_ids": [18]
+	},
+	{
+		"id": 33,
+		"name": "工位",
+		"wtype": "workstation",
+		"x": "723",
+		"y": "205",
+		"road_ids": [18]
+	},
+	{
+		"id": 34,
+		"name": "工位",
+		"wtype": "workstation",
+		"x": "868",
+		"y": "205",
+		"road_ids": [18]
+	},
+	{
+		"id": 35,
+		"name": "工位",
+		"wtype": "workstation",
+		"x": "956",
+		"y": "205",
+		"road_ids": [18]
+	},
+	{
+		"id": 36,
+		"name": "工位",
+		"wtype": "workstation",
+		"x": "70",
+		"y": "386",
+		"road_ids": [17]
+	},
+	{
+		"id": 37,
+		"name": "工位",
+		"wtype": "workstation",
+		"x": "164",
+		"y": "425",
+		"road_ids": [17]
+	},
+	{
+		"id": 38,
+		"name": "工位",
+		"wtype": "workstation",
+		"x": "285",
+		"y": "425",
+		"road_ids": [17]
+	},
+	{
+		"id": 39,
+		"name": "工位",
+		"wtype": "workstation",
+		"x": "390",
+		"y": "425",
+		"road_ids": [17]
+	},
+	{
+		"id": 40,
+		"name": "工位",
+		"wtype": "workstation",
+		"x": "458",
+		"y": "425",
+		"road_ids": [17]
+	},
+	{
+		"id": 41,
+		"name": "工位",
+		"wtype": "workstation",
+		"x": "493",
+		"y": "425",
+		"road_ids": [17]
+	},
+	{
+		"id": 42,
+		"name": "工位",
+		"wtype": "workstation",
+		"x": "530",
+		"y": "425",
+		"road_ids": [17]
+	},
+	{
+		"id": 43,
+		"name": "工位",
+		"wtype": "workstation",
+		"x": "575",
+		"y": "425",
+		"road_ids": [17]
+	},
+	{
+		"id": 44,
+		"name": "工位",
+		"wtype": "workstation",
+		"x": "651",
+		"y": "425",
+		"road_ids": [17]
+	},
+	{
+		"id": 45,
+		"name": "工位",
+		"wtype": "workstation",
+		"x": "745",
+		"y": "425",
+		"road_ids": [17]
+	},
+	{
+		"id": 46,
+		"name": "工位",
+		"wtype": "workstation",
+		"x": "936",
+		"y": "425",
+		"road_ids": [17]
+	},
+	{
+		"id": 47,
+		"name": "工位",
+		"wtype": "workstation",
+		"x": "960",
+		"y": "465",
+		"road_ids": [17]
+	},
+	{
+		"id": 48,
+		"name": "工位",
+		"wtype": "workstation",
+		"x": "76",
+		"y": "644",
+		"road_ids": [21]
+	},
+	{
+		"id": 49,
+		"name": "工位",
+		"wtype": "workstation",
+		"x": "150",
+		"y": "644",
+		"road_ids": [21]
+	},
+	{
+		"id": 50,
+		"name": "工位",
+		"wtype": "workstation",
+		"x": "315",
+		"y": "644",
+		"road_ids": [21]
+	},
+	{
+		"id": 51,
+		"name": "工位",
+		"wtype": "workstation",
+		"x": "420",
+		"y": "644",
+		"road_ids": [21]
+	},
+	{
+		"id": 52,
+		"name": "工位",
+		"wtype": "workstation",
+		"x": "453",
+		"y": "644",
+		"road_ids": [21]
+	},
+	{
+		"id": 53,
+		"name": "工位",
+		"wtype": "workstation",
+		"x": "493",
+		"y": "644",
+		"road_ids": [21]
+	},
+	{
+		"id": 54,
+		"name": "工位",
+		"wtype": "workstation",
+		"x": "530",
+		"y": "644",
+		"road_ids": [21]
+	},
+	{
+		"id": 55,
+		"name": "工位",
+		"wtype": "workstation",
+		"x": "559",
+		"y": "644",
+		"road_ids": [21]
+	},
+	{
+		"id": 56,
+		"name": "工位",
+		"wtype": "workstation",
+		"x": "622",
+		"y": "644",
+		"road_ids": [21]
+	},
+	{
+		"id": 57,
+		"name": "工位",
+		"wtype": "workstation",
+		"x": "779",
+		"y": "644",
+		"road_ids": [21]
+	},
+	{
+		"id": 58,
+		"name": "工位",
+		"wtype": "workstation",
+		"x": "958",
+		"y": "644",
+		"road_ids": [21]
+	}],
+	"stops": [{
+		"id": 22,
+		"name": "停车点",
+		"wtype": "stop",
+		"x": "70",
+		"y": "386",
+		"road_ids": [17]
+	},
+	{
+		"id": 23,
+		"name": "停车点",
+		"wtype": "stop",
+		"x": "960",
+		"y": "465",
+		"road_ids": [17]
+	}],
+	"intersections": [{
+		"id": 1,
+		"name": "交叉点",
+		"wtype": "intersection",
+		"x": "493",
+		"y": "25"
+	},
+	{
+		"id": 2,
+		"name": "交叉点",
+		"wtype": "intersection",
+		"x": "493",
+		"y": "205"
+	},
+	{
+		"id": 3,
+		"name": "交叉点",
+		"wtype": "intersection",
+		"x": "493",
+		"y": "425"
+	},
+	{
+		"id": 4,
+		"name": "交叉点",
+		"wtype": "intersection",
+		"x": "493",
+		"y": "644"
+	},
+	{
+		"id": 5,
+		"name": "交叉点",
+		"wtype": "intersection",
+		"x": "530",
+		"y": "644"
+	},
+	{
+		"id": 6,
+		"name": "交叉点",
+		"wtype": "intersection",
+		"x": "530",
+		"y": "425"
+	},
+	{
+		"id": 7,
+		"name": "交叉点",
+		"wtype": "intersection",
+		"x": "530",
+		"y": "205"
+	},
+	{
+		"id": 8,
+		"name": "交叉点",
+		"wtype": "intersection",
+		"x": "530",
+		"y": "25"
+	},
+	{
+		"id": 10,
+		"name": "交叉点",
+		"wtype": "intersection",
+		"x": "76",
+		"y": "205"
+	},
+	{
+		"id": 11,
+		"name": "交叉点",
+		"wtype": "intersection",
+		"x": "956",
+		"y": "205"
+	},
+	{
+		"id": 13,
+		"name": "交叉点",
+		"wtype": "intersection",
+		"x": "70",
+		"y": "386"
+	},
+	{
+		"id": 14,
+		"name": "交叉点",
+		"wtype": "intersection",
+		"x": "70",
+		"y": "425"
+	},
+	{
+		"id": 15,
+		"name": "交叉点",
+		"wtype": "intersection",
+		"x": "960",
+		"y": "425"
+	},
+	{
+		"id": 16,
+		"name": "交叉点",
+		"wtype": "intersection",
+		"x": "960",
+		"y": "465"
+	},
+	{
+		"id": 19,
+		"name": "交叉点",
+		"wtype": "intersection",
+		"x": "76",
+		"y": "644"
+	},
+	{
+		"id": 20,
+		"name": "交叉点",
+		"wtype": "intersection",
+		"x": "958",
+		"y": "644"
+	}]
+}

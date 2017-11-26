@@ -1,0 +1,53 @@
+.maptable{border: solid 0px #B4B4B4;}
+.inputimg{background: url(../images/new/U2_73.png) no-repeat;width:81px;height:24px;padding-left:20px;text-align:left;}
+.main-div{margin-left:20px;}
+.btn-blue{background:url(../images/new/U2_104.png) repeat;padding:5px 0 px 5px;width:100px;margin:10px;color: #fff;}
+.map-left{float:left; width:880px; height:680px; border-radius:5px; box-shadow:0px 1px 2px rgba(0,0,0,0.3); background: #f5f8fa; margin-top:10px;}
+.td-title{width:85px;}
+.td-val{width:40px;}
+[class*=i_]{display: inline-block; /*position: absolute;*/ width:15px; height:15px;}
+.i_U2B_02{background:url("../images/new/U2B_02.png")no-repeat;}
+.i_U2B_06{background:url("../images/new/U2B_06.png")no-repeat;}
+.i_U2B_09{background:url("../images/new/U2B_09.png")no-repeat;}
+.i_U2B_11{background:url("../images/new/U2B_11.png")no-repeat;}
+.i_U2B_15{background:url("../images/new/U2B_15.png")no-repeat;}
+.i_U2B_17{background:url("../images/new/U2B_17.png")no-repeat;}
+.i_U2C_11{background:url("../images/new/U2C_11.png")no-repeat;}
+.i_U2D_09{background:url("../images/new/U2D_09.png")no-repeat;}
+.i_U2e_03{background:url("../images/new/U2e_03.png")no-repeat;}
+.i_U2_03{background:url("../images/new/U2_03.png")no-repeat;}
+.i_U2_05{background:url("../images/new/U2_05.png")no-repeat;}
+.i_U2_07{background:url("../images/new/U2_07.png")no-repeat;}
+.i_U2_09{background:url("../images/new/U2_09.png")no-repeat;}
+.i_U2_101{background:url("../images/new/U2_101.png")no-repeat;}
+.i_U2_104{background:url("../images/new/U2_104.png")no-repeat;}
+.i_U2_12{background:url("../images/new/U2_12.png")no-repeat;}
+.i_U2_15{background:url("../images/new/U2_15.png")no-repeat;}
+.i_U2_18{background:url("../images/new/U2_18.png")no-repeat;}
+.i_U2_28{background:url("../images/new/U2_28.png")no-repeat;}
+.i_U2_30{background:url("../images/new/U2_30.png")no-repeat;}
+.i_U2_33{background:url("../images/new/U2_33.png")no-repeat;}
+.i_U2_38{background:url("../images/new/U2_38.png")no-repeat;}
+.i_U2_39{background:url("../images/new/U2_39.png")no-repeat;}
+.i_U2_40{background:url("../images/new/U2_40.png")no-repeat;}
+.i_U2_42{background:url("../images/new/U2_42.png")no-repeat;}
+.i_U2_49{background:url("../images/new/U2_49.png")no-repeat;}
+.i_U2_52{background:url("../images/new/U2_52.png")no-repeat;}
+.i_U2_56{background:url("../images/new/U2_56.png")no-repeat;}
+.i_U2_59{background:url("../images/new/U2_59.png")no-repeat;}
+.i_U2_60{background:url("../images/new/U2_60.png")no-repeat;}
+.i_U2_64{background:url("../images/new/U2_64.png")no-repeat;}
+.i_U2_66{background:url("../images/new/U2_66.png")no-repeat;}
+.i_U2_68{background:url("../images/new/U2_68.png")no-repeat;}
+.i_U2_73{background:url("../images/new/U2_73.png")no-repeat;}
+.i_U2_75{background:url("../images/new/U2_75.png")no-repeat;}
+.i_U2_79{background:url("../images/new/U2_79.png")no-repeat;}
+.i_U2_81{background:url("../images/new/U2_81.png")no-repeat;}
+.i_U2_83{background:url("../images/new/U2_83.png")no-repeat;}
+.i_U2_85{background:url("../images/new/U2_85.png")no-repeat;}
+.i_U2_87{background:url("../images/new/U2_87.png")no-repeat;}
+.i_U2_89{background:url("../images/new/U2_89.png")no-repeat;}
+.i_U2_93{background:url("../images/new/U2_93.png")no-repeat;}
+.i_U2_95{background:url("../images/new/U2_95.png")no-repeat;}
+.i_U2_97{background:url("../images/new/U2_97.png")no-repeat;}
+.i_U2_99{background:url("../images/new/U2_99.png")no-repeat;}

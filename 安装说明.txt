@@ -1,0 +1,7 @@
+1、安装java
+2、安装Tomcat
+3、安装MySQL 5.X 数据库，所有默认，确保是3306端口即可，用户密码随便设
+4、添加数据库用户：打开MySQL Workbench -> Server -> Users and Privileges -> Add Account -> 用户名：vga，密码：123456 -> Administrative Roles: DBManager
+5、导入数据：MySQL Workbench -> File -> New Query Tab -> 将table.sql文件中的sql语句复制到里面运行即可
+6、将system.war文件复制到 apache-tomcat\webapps 目录下，如果要替换其中的地图文件，则需运行tomcat等system.war解压成文件夹后删除system.war,然后用新地图文件覆盖里面的test.map地图文件
+7、浏览器访问http://localhost:8080/system

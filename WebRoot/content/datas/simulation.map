@@ -1,0 +1,665 @@
+﻿{
+	"width": "1000",
+	"height": "600",
+	"scale": "0.6",
+	"regX": "500",
+	"regY": "550",
+	"roads": [{
+		"id": 21,
+		"name": "R",
+		"point_ids": [1,
+		2],
+		"capacity": 1,
+		"type": "single-way",
+		"color": "green"
+	},
+	{
+		"id": 22,
+		"name": "R",
+		"point_ids": [2,
+		3],
+		"capacity": 1,
+		"type": "single-way",
+		"color": "green"
+	},
+	{
+		"id": 23,
+		"name": "R",
+		"point_ids": [3,
+		4],
+		"capacity": 1,
+		"type": "single-way",
+		"color": "green"
+	},
+	{
+		"id": 24,
+		"name": "R",
+		"point_ids": [4,
+		5],
+		"capacity": 1,
+		"type": "single-way",
+		"color": "green"
+	},
+	{
+		"id": 25,
+		"name": "R",
+		"point_ids": [5,
+		6],
+		"capacity": 1,
+		"type": "single-way",
+		"color": "green"
+	},
+	{
+		"id": 26,
+		"name": "R",
+		"point_ids": [6,
+		7],
+		"capacity": 1,
+		"type": "single-way",
+		"color": "green"
+	},
+	{
+		"id": 27,
+		"name": "R",
+		"point_ids": [7,
+		8],
+		"capacity": 1,
+		"type": "single-way",
+		"color": "green"
+	},
+	{
+		"id": 28,
+		"name": "R",
+		"point_ids": [8,
+		9],
+		"capacity": 1,
+		"type": "single-way",
+		"color": "green"
+	},
+	{
+		"id": 29,
+		"name": "R",
+		"point_ids": [9,
+		10],
+		"capacity": 1,
+		"type": "single-way",
+		"color": "green"
+	},
+	{
+		"id": 30,
+		"name": "R",
+		"point_ids": [10,
+		11],
+		"capacity": 1,
+		"type": "single-way",
+		"color": "green"
+	},
+	{
+		"id": 31,
+		"name": "R",
+		"point_ids": [11,
+		12],
+		"capacity": 1,
+		"type": "single-way",
+		"color": "green"
+	},
+	{
+		"id": 32,
+		"name": "R",
+		"point_ids": [12,
+		1],
+		"capacity": 1,
+		"type": "single-way",
+		"color": "green"
+	},
+	{
+		"id": 33,
+		"name": "R",
+		"point_ids": [13,
+		14],
+		"capacity": 1,
+		"type": "single-way",
+		"color": "orange"
+	},
+	{
+		"id": 34,
+		"name": "R",
+		"point_ids": [14,
+		3],
+		"capacity": 1,
+		"type": "single-way",
+		"color": "orange"
+	},
+	{
+		"id": 35,
+		"name": "R",
+		"point_ids": [3,
+		10],
+		"capacity": 1,
+		"type": "single-way",
+		"color": "orange"
+	},
+	{
+		"id": 36,
+		"name": "R",
+		"point_ids": [10,
+		18],
+		"capacity": 1,
+		"type": "single-way",
+		"color": "orange"
+	},
+	{
+		"id": 37,
+		"name": "R",
+		"point_ids": [18,
+		17],
+		"capacity": 1,
+		"type": "single-way",
+		"color": "orange"
+	},
+	{
+		"id": 38,
+		"name": "R",
+		"point_ids": [17,
+		11],
+		"capacity": 1,
+		"type": "single-way",
+		"color": "orange"
+	},
+	{
+		"id": 39,
+		"name": "R",
+		"point_ids": [11,
+		2],
+		"capacity": 1,
+		"type": "single-way",
+		"color": "orange"
+	},
+	{
+		"id": 40,
+		"name": "R",
+		"point_ids": [2,
+		13],
+		"capacity": 1,
+		"type": "single-way",
+		"color": "orange"
+	},
+	{
+		"id": 41,
+		"name": "R",
+		"point_ids": [15,
+		16],
+		"capacity": 1,
+		"type": "single-way",
+		"color": "orange"
+	},
+	{
+		"id": 42,
+		"name": "R",
+		"point_ids": [16,
+		5],
+		"capacity": 1,
+		"type": "single-way",
+		"color": "orange"
+	},
+	{
+		"id": 43,
+		"name": "R",
+		"point_ids": [5,
+		8],
+		"capacity": 1,
+		"type": "single-way",
+		"color": "orange"
+	},
+	{
+		"id": 44,
+		"name": "R",
+		"point_ids": [8,
+		20],
+		"capacity": 1,
+		"type": "single-way",
+		"color": "orange"
+	},
+	{
+		"id": 45,
+		"name": "R",
+		"point_ids": [20,
+		19],
+		"capacity": 1,
+		"type": "single-way",
+		"color": "orange"
+	},
+	{
+		"id": 46,
+		"name": "R",
+		"point_ids": [19,
+		9],
+		"capacity": 1,
+		"type": "single-way",
+		"color": "orange"
+	},
+	{
+		"id": 47,
+		"name": "R",
+		"point_ids": [9,
+		4],
+		"capacity": 1,
+		"type": "single-way",
+		"color": "orange"
+	},
+	{
+		"id": 48,
+		"name": "R",
+		"point_ids": [4,
+		15],
+		"capacity": 1,
+		"type": "single-way",
+		"color": "orange"
+	},
+	{
+		"id": 51,
+		"name": "TW",
+		"point_ids": [21,
+		22],
+		"capacity": 1,
+		"type": "double-way",
+		"color": "black"
+	},
+	{
+		"id": 54,
+		"name": "TW",
+		"point_ids": [23,
+		24],
+		"capacity": 1,
+		"type": "double-way",
+		"color": "black"
+	},
+	{
+		"id": 57,
+		"name": "TW",
+		"point_ids": [25,
+		26],
+		"capacity": 1,
+		"type": "double-way",
+		"color": "black"
+	},
+	{
+		"id": 60,
+		"name": "TW",
+		"point_ids": [27,
+		28],
+		"capacity": 1,
+		"type": "double-way",
+		"color": "black"
+	},
+	{
+		"id": 63,
+		"name": "TW",
+		"point_ids": [29,
+		30],
+		"capacity": 1,
+		"type": "double-way",
+		"color": "black"
+	},
+	{
+		"id": 66,
+		"name": "TW",
+		"point_ids": [31,
+		32],
+		"capacity": 1,
+		"type": "double-way",
+		"color": "black"
+	},
+	{
+		"id": 75,
+		"name": "TW",
+		"point_ids": [33,
+		34],
+		"capacity": 1,
+		"type": "double-way",
+		"color": "black"
+	},
+	{
+		"id": 79,
+		"name": "TW",
+		"point_ids": [35,
+		36],
+		"capacity": 1,
+		"type": "double-way",
+		"color": "black"
+	}],
+	"workstations": [{
+		"id": 24,
+		"name": "S",
+		"wtype": "workstation",
+		"x": "200",
+		"y": "290",
+		"road_ids": [54]
+	},
+	{
+		"id": 22,
+		"name": "S",
+		"wtype": "workstation",
+		"x": "800",
+		"y": "360",
+		"road_ids": [51]
+	},
+	{
+		"id": 26,
+		"name": "S",
+		"wtype": "workstation",
+		"x": "500",
+		"y": "640",
+		"road_ids": [57]
+	},
+	{
+		"id": 28,
+		"name": "S",
+		"wtype": "workstation",
+		"x": "500",
+		"y": "890",
+		"road_ids": [60]
+	},
+	{
+		"id": 34,
+		"name": "S",
+		"wtype": "workstation",
+		"x": "500",
+		"y": "290",
+		"road_ids": [75]
+	},
+	{
+		"id": 36,
+		"name": "S",
+		"wtype": "workstation",
+		"x": "200",
+		"y": "640",
+		"road_ids": [79]
+	}],
+	"stops": [{
+		"id": 43,
+		"name": "S",
+		"wtype": "stop",
+		"x": "70",
+		"y": "325",
+		"road_ids": [66]
+	},
+	{
+		"id": 44,
+		"name": "S",
+		"wtype": "stop",
+		"x": "930",
+		"y": "675",
+		"road_ids": [63]
+	}],
+	"shelfs": [{
+		"id": 201,
+		"name": "货架",
+		"wtype": "shelf",
+		"x": "500",
+		"y": "100",
+		"road_ids": [32],
+		"sn":"SH001"
+	},
+	{
+		"id": 202,
+		"name": "货架",
+		"wtype": "shelf",
+		"x": "600",
+		"y": "900",
+		"road_ids": [32],
+		"sn":"SH002"
+	}],
+	"intersections": [{
+		"id": 1,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "300",
+		"y": "100"
+	},
+	{
+		"id": 2,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "300",
+		"y": "300"
+	},
+	{
+		"id": 3,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "300",
+		"y": "350"
+	},
+	{
+		"id": 4,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "300",
+		"y": "650"
+	},
+	{
+		"id": 5,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "300",
+		"y": "700"
+	},
+	{
+		"id": 6,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "300",
+		"y": "900"
+	},
+	{
+		"id": 7,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "700",
+		"y": "900"
+	},
+	{
+		"id": 8,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "700",
+		"y": "700"
+	},
+	{
+		"id": 9,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "700",
+		"y": "650"
+	},
+	{
+		"id": 10,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "700",
+		"y": "350"
+	},
+	{
+		"id": 11,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "700",
+		"y": "300"
+	},
+	{
+		"id": 12,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "700",
+		"y": "100"
+	},
+	{
+		"id": 13,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "100",
+		"y": "300"
+	},
+	{
+		"id": 14,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "100",
+		"y": "350"
+	},
+	{
+		"id": 15,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "100",
+		"y": "650"
+	},
+	{
+		"id": 16,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "100",
+		"y": "700"
+	},
+	{
+		"id": 17,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "900",
+		"y": "300"
+	},
+	{
+		"id": 18,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "900",
+		"y": "350"
+	},
+	{
+		"id": 19,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "900",
+		"y": "650"
+	},
+	{
+		"id": 20,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "900",
+		"y": "700"
+	},
+	{
+		"id": 21,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "800",
+		"y": "350"
+	},
+	{
+		"id": 22,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "800",
+		"y": "360"
+	},
+	{
+		"id": 23,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "200",
+		"y": "300"
+	},
+	{
+		"id": 24,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "200",
+		"y": "290"
+	},
+	{
+		"id": 25,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "500",
+		"y": "650"
+	},
+	{
+		"id": 26,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "500",
+		"y": "640"
+	},
+	{
+		"id": 27,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "500",
+		"y": "900"
+	},
+	{
+		"id": 28,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "500",
+		"y": "890"
+	},
+	{
+		"id": 29,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "900",
+		"y": "675"
+	},
+	{
+		"id": 30,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "930",
+		"y": "675"
+	},
+	{
+		"id": 31,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "100",
+		"y": "325"
+	},
+	{
+		"id": 32,
+		"name": "I",
+		"wtype": "intersection",
+		"x": "70",
+		"y": "325"
+	},
+	{
+		"id": 33,
+		"name": "S",
+		"wtype": "intersection",
+		"x": "500",
+		"y": "300"
+	},
+	{
+		"id": 34,
+		"name": "S",
+		"wtype": "intersection",
+		"x": "500",
+		"y": "290"
+	},
+	{
+		"id": 35,
+		"name": "S",
+		"wtype": "intersection",
+		"x": "200",
+		"y": "650"
+	},
+	{
+		"id": 36,
+		"name": "S",
+		"wtype": "intersection",
+		"x": "200",
+		"y": "640"
+	}]
+}

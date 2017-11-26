@@ -1,0 +1,144 @@
+/*公共样式*/
+*{ margin:0px; padding:0px; font-family:'微软雅黑', Arial, Helvetica, sans-serif;}
+body{ background-color:#fff; width:100%;overflow-x:hidden;}
+a{ text-decoration:none; color:#7f485d; font-size:12px;}
+.left{ float:left;}
+li{ list-style:none;}
+img{ border:none;}
+.center{ margin:0 auto;}
+.cls{ clear:both;}
+.fl{ float:left; display:inline;}
+.fr{ float:right; display:inline;}
+#divCalendar{ position:fixed;}
+.div1 #divCalendar{ position:absolute;}
+
+/*头部*/
+.header{ height:41px; border-bottom:1px solid #e8e8e8;border-top:1px solid #e8e8e8;}
+.header1{ width:1100px; margin:0 auto;}
+.header1 span{ float:left; color:#666; font-size:14px; display:block; line-height:41px;}
+.header1 font{ float:left; color:#666; font-size:14px; display:block; line-height:41px; margin-left:46px;}
+.header1 font a{color:#666; font-size:14px;}
+.header1 h1{ float:right; margin-top:5px; position:relative;}
+.header1 h1 a{ display:block; float:left; margin-left:10px;}
+.header1 h1 .weixin{ background:url(../img/ican.png) 0 0; width:30px; height:30px;}
+.header1 h1 .weixin:hover img{ display:block;}
+.header1 h1 .weibo{ background:url(../img/ican.png) -30px 0; width:30px; height:30px;}
+.header1 h1 .qq{ background:url(../img/ican.png) -60px 0; width:30px; height:30px;}
+.header1 h1 a img{ display:block; position:absolute; top:35px; left:-45px; display:none; z-index:100;}
+
+.nav{ width:1100px; height:64px; background:url(../img/nav.png) no-repeat; margin:0 auto;}
+.nav .logo{ float:left; margin-top:10px; width:171px; float:left;}
+.nav .logo a{ margin-left:21px;}
+.nav ul{ float:left;}
+.nav ul li{ width:145px; line-height:64px; line-height:64px; text-align:center; float:left;}
+.nav ul li a{ color:#f6f6f6; font-size:16px;}
+.nav ul li:hover{ background:url(../img/nav-h.png) center center no-repeat;}
+.nav ul li.in{ background:url(../img/nav-h.png) center center no-repeat;}
+.nav_a{ float:right;}
+.nav_a a{ display:block; background:url(../img/btnbg.png) center center no-repeat; text-align:center; margin-top:14px; margin-right:20px; color:#646464; font-size:16px; width:155px; height:40px; line-height:35px;}
+
+/*底部*/
+.footer{ width:100%; background:#eee; padding-bottom:48px; overflow:hidden;}
+.footer1{ width:1100px; margin:0 auto; text-align:center;}
+.footer1 h1{ font-weight:100; margin-bottom:10px; margin-top:13px;}
+.footer1 h1 a{ color:#666; font-size:14px;}
+.footer1 h1 a:hover{ color:#0c5288;}
+.footer1 p{ color:#999; font-size:12px; margin-top:5px;}
+.footer1 p a{ color:#999; font-size:12px; margin-right:14px;}
+.footer1 span{ display:block; margin-top:25px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
